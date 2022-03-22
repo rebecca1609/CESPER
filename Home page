@@ -6,6 +6,8 @@
 
   <title>CESPER</title>
 
+<link rel="stylesheet" href="estilo.css">
+
 <meta name="keywords" content="persianas, cordinas, envidraçamento, sacada">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,7 +39,7 @@
 <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="produtos.html">Produtos e Serviços</a>
 <ul class="dropdown-menu">
-<li><a class="dropdown-item" href="#">Persianas</a></li>
+<li><a class="dropdown-item" href="#">Persianas e Cortinas</a></li>
 <li><a class="dropdown-item" href="#">Envidraçamento de sacadas</a></li>
 <li><a class="dropdown-item" href="#">Ver Todos</a></li>
 </ul>
@@ -49,10 +51,38 @@
 
 </ul>
 </div>
+<hr>
 
 <div>
 <h1>Grupo CESPER</h1>
+</div>
 
 
    </body>
 </html>
+
+<!--Telefones
+<header class="area-topo" data-ix="mover-topo">
+<div class="topo" data-ix="mover-topo">
+<div class="topo-social">
+<div class="limite">
+<div class="bloco-topo-tel w-clearfix">
+<div class="conteudo-esquerda-topo">
+<div class="bloco-num-tel w-clearfix">
+<a class="texto-telefone-topo-wpp-link" target="_blank" href="tel:+5511938002050">
+<div class="texto-tel-topo-contato">
+<h6>(11) 93800-2050</h6>
+</div>
+</a>
+</div>
+<div class="bloco-num-tel w-clearfix">
+<a class="texto-telefone-topo-wpp-link" target="_blank" href="https://www.construsitebrasil.com/redirect-whatsapp.php?phone=5511948649264">
+<div class="texto-tel-topo-contato">
+<h6>(11) 94864-9264</h6>
+</div>
+</a>
+</div>
+</div>
+<div class="#">
+</div>
+-->

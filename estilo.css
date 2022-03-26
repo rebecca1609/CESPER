@@ -1,11 +1,16 @@
 body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color:seashell; /*Só funcionou quando coloquei o stylesheet dentro do body*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin-left: 20px;
+    text-align: left;
+}
+
+p {
+    margin-left: 20px;
+    text-align: left;
 }
 
 /* Aqui começa a animação dos slides*/
@@ -111,3 +116,7 @@ body {
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: #fff;
 }
+
+/* Vídeo de referencia para fazer o SlideShow 
+https://www.youtube.com/watch?v=BpzyuuPIEaQ
+*/

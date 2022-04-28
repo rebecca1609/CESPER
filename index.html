@@ -13,8 +13,11 @@
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="estilo.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Links dos ícones-->
+        <script src="https://kit.fontawesome.com/e685f69241.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="estilo.css">
 
 </head>
     <body>
@@ -26,11 +29,20 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="empresa.html">Empresa</a>
+                    <a class="nav-link" href="empresa.html"><i class="fa-regular fa-building"></i> Empresa</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="produtos.html">Produtos</a>
+                    <a class="nav-link" href="produtos.html"><i class="fa-regular fa-rectangle-list"></i> Produtos</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="serviços.html">Serviços</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Envidraçamento de Sacadas</a></li>
+                        <li><a class="dropdown-item" href="#">Persianas</a></li>
+                        <li><a class="dropdown-item" href="#">Cortinas</a></li>
+                    </ul>
                 </li>
 
                 <li class="nav-item">
@@ -44,8 +56,7 @@
 
     <div>
         <h1>CESPER</h1>
-        <p>Consultria especializada
-        <br/>Envidraçamento de Sacadas e Persianas</p>
+        <h3>Consultoria Especializada Envidraçamento de Sacadas e Persianas e Cortinas.</h2>
     </div>
 
         <div class="slider">
@@ -59,7 +70,6 @@
                 <!-- Fim Radio Buttons -->
 
                 <!-- Slide Images -->
-
                 <div class="slide first">
                     <img src="sacada.png" alt="sacada de vidro">
                 </div>
@@ -95,21 +105,20 @@
             </div>
             
         </div>
-            <footer>
+
+        <footer>
             <div>
-                <p>Cristiano Souza</p>
-                <p>(11) 93800-2050 | <i class="fa-brands fa-whatsapp"></i> (11) 94864-9264<p>
+                <p>Cristiano Souza: (11) 93800-2050 | <i class="fa-brands fa-whatsapp"></i> (11) 94864-9264<p>
             </div>
             <div class="footer-bottom">
-                <p>copyright &copy; <a href="#">Foolish Developer</a>  </p>
                 
                         <div class="footer-menu">
-                          <ul class="f-menu">
+                            <ul class="f-menu">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="empresa.html">Empresa</a></li>
                             <li><a href="produtos.html">Produtos</a></li>
                             <li><a href="contato.html">Contato</a></li>
-                          </ul>
+                            </ul>
                         </div>
             </div>
         </footer>

@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color:#fff;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -34,7 +34,7 @@ p {
 .slide{
     width: 25%;
     position: relative;
-    transition: 8s;
+    transition: 5s;
 }
 
 .slide img{
@@ -117,10 +117,6 @@ p {
     background-color: #fff;
 }
 
-/* Vídeo de referencia para fazer o SlideShow 
-https://www.youtube.com/watch?v=BpzyuuPIEaQ
-*/
-
 /*Footer*/
 *{
     margin: 0;
@@ -159,44 +155,33 @@ padding-bottom: 40px;
     text-align: center;
 }
 
-.footer-bottom p{
-float: left;
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-}
-.footer-bottom p a{
-  color:#44bae8;
-  font-size: 16px;
-  text-decoration: none;
-}
 .footer-bottom span{
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
 }
 .footer-menu{
-  float: right;
+    float: right;
 
 }
 .footer-menu ul{
-  display: flex;
+    display: flex;
 }
 .footer-menu ul li{
 padding-right: 10px;
 display: block;
 }
 .footer-menu ul li a{
-  color: #cfd2d6;
-  text-decoration: none;
+    color: #cfd2d6;
+    text-decoration: none;
 }
 .footer-menu ul li a:hover{
-  color: #27bcda;
+    color: #27bcda;
 }
 
 @media (max-width:500px) {
-.footer-menu ul{
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
+.footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}}

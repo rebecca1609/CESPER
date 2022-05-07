@@ -1,185 +1,83 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
 
 <head>
 <title>C.E.S.P.E.R</title>
 
-<meta name="keywords" content="persianas, cortinas, envidraçamento, sacada">
+
+<meta name="keywords" content="persianas, cortinas, envidraçamento, sacadas">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- CSS only -->
+        <!--Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <!-- JavaScript Bundle with Popper -->
+        <!-- Bootstrap JavaScript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-        <!--Links dos ícones-->
         <script src="https://kit.fontawesome.com/e685f69241.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <link rel="stylesheet" href="estilo.css">
 
 </head>
     <body>
-
-        <div class="container mt-3"> <!--vai de 1 a 5-->
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html"><i class="fa fa-home w3-large"></i> Home</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="empresa.html"><i class="fa-regular fa-building"></i> Empresa</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="produtos.html"><i class="fa-regular fa-rectangle-list"></i> Produtos</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="serviços.html">Serviços</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Envidraçamento de Sacadas</a></li>
-                        <li><a class="dropdown-item" href="#">Persianas</a></li>
-                        <li><a class="dropdown-item" href="#">Cortinas</a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="contato.html">Contato</a>
-                </li>
-
-            </ul>
-        </div>
-
-    <hr>
-
-    <div>
-        <h1>CESPER</h1>
-        <h3>Consultoria Especializada Envidraçamento de Sacadas e Persianas e Cortinas.</h2>
-    </div>
-
-        <div class="slider">
-            
-            <div class="slides">
-                <!-- Radio Buttons -->
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">
-                <!-- Fim Radio Buttons -->
-
-                <!-- Slide Images -->
-                <div class="slide first">
-                    <img src="sacada.png" alt="sacada de vidro">
+        <!--INÍCIO cabeçalho-->
+        <header>
+            <!-- Logo na barra de navegação -->
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="pastaimagem/logoeditado.png" alt="logo da cesper" width="250" height="107" class="d-inline-block align-text-top">
+                    </a>
+                        <!-- Barra de navegação -->
+                    <div class="container-mt-3"> <!--vai de 1 a 5-->
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html"><i class="fa fa-home w3-large"></i> Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="empresa.html"><i class="fa-regular fa-building"></i> Sobre Nós</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="produtos.html"><i class="fa-regular fa-rectangle-list"></i> Produtos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="serviços.html">Serviços</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contato.html"> Contato</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-
-                <div class="slide">
-                    <img src="sacada2.png" alt="sacada de vidro">
-                </div>
-
-                <div class="slide">
-                    <img src="sacada3.png" alt="sacada de vidro">
-                </div>
-
-                <div class="slide">
-                    <img src="sacada4.png" alt="sacada de vidro">
-                </div>
-                <!-- Fim Slide Images -->
-
-                <!-- Navigation auto -->
-                <div class="navigation-auto">
-                    <div class="autobtn1"></div>
-                    <div class="autobtn2"></div>
-                    <div class="autobtn3"></div>
-                    <div class="autobtn4"></div>
-                </div>
-
+            </nav>
+        </header><!--FIM Cabeçalho-->
+        
+        <!--INÍCIO Carrossel de imagens-->
+        <div id="carrossel" class="carousel slide" data-bs-ride="carousel"><!--data-bs-ride="carousel" é usado para inicializar o carrossel-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="pastaimagem/sacada.jpg" class="d-block w-50" alt="Sacada">
+                </div>
+                <div class="carousel-item">
+                <img src="pastaimagem/PersianaRomana.jpg" class="d-block w-50" alt="Persiana">
+                </div>
+            <div class="carousel-item">
+                <img src="pastaimagem/cortina02.jpg" class="d-block w-50" alt="Cortina">
+            </div>
+            </div>
+        </div><!--FIM Carrossel de imagens-->
 
-            <div class="manual-navigation">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-                <label for="radio4" class="manual-btn"></label>
-            </div>
-            
-        </div>
-
-        <footer>
-            <div>
-                <p>Cristiano Souza: (11) 93800-2050 | <i class="fa-brands fa-whatsapp"></i> (11) 94864-9264<p>
-            </div>
-            <div class="footer-bottom">
-                
-                        <div class="footer-menu">
-                            <ul class="f-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="empresa.html">Empresa</a></li>
-                            <li><a href="produtos.html">Produtos</a></li>
-                            <li><a href="contato.html">Contato</a></li>
-                            </ul>
-                        </div>
-            </div>
-        </footer>
+        <!--INÍCIO Rodapé-->
+        <footer class="footer mt-auto py-3 bg-light">
+          <div class="container">
+            <span class="text-muted">Rodapé</span>
+          </div>
+        </footer><!--FIM Rodapé-->
         <script src="script.js"></script>
     </body>
 <html>
-        
-        Novo documento
-        
-        <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    
-<!-- Tags meta -->
-<meta charset="utf-8">
-<meta name="keywords" content="cortinas, persianas, sacadas, sacadas de vidro, envidraçamento">
-<meta name="viewport" content="width=device-width, initial-scale=1"> <--! Tag de responsividade -->
-
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-<!-- Bootstrap JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-<title>cesper</title>
-</head>
-
-<body>
-<div class="container mt-3"> <!--vai de 1 a 5-->
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="empresa.html">Empresa</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="produtos.html">Produtos</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="contato.html">Contato</a>
-                </li>
-
-            </ul>
-        </div>
-
-<footer class="footer mt-auto py-3 bg-light">
-  <div class="container">
-    <span class="text-muted">Rodapé</span>
-  </div>
-</footer>
-
-</body>
-
-
-https://getbootstrap.com/docs/5.1/examples/#snippets
-https://acervolima.com/bootstrap-carrossel/#:~:text=O%20atributo%20data-ride%20%3D%20%E2%80%9Dcarrossel%E2%80%9D%20diz%20ao%20Bootstrap,l%C3%A1%20e%20qual%20slide%20estamos%20visualizando%20no%20momento.
-
-* Icones do bootstrap
-* Carrossel usando bootstrap
-* Como criar um repositório de chave pública
